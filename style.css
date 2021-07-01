@@ -10,12 +10,39 @@ body {
     display: flex;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 20px;
 }
 
 .video-container {
     width: 100%;
     height: 70vh;
     background-color: #C4C4C4;
+    position: static;
+}
+
+.left-trimmer {
+    width: 15px;
+    height: 70%;
+    left: 0;
+    position: fixed;
+    background-color: #5193A6;
+}
+
+.left-chevron {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex; 
+    position: relative;
+    padding-top: 35%;
+}
+
+.right-trimmer {
+    width: 15px;
+    height: 70%;
+    right: 0;
+    position: fixed;
+    background-color: #5193A6;
 }
 
 .placeholder-text {
@@ -32,6 +59,20 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+.export-video-button {
+    background-color: #0099E6;
+}
+
+.export-video-container {
+    padding-top: 3.5%;
+    display: block;
+}
+
+.upload-video-container {
+    padding-top: 1.5%;
+    display: block;
 }
 
 .copyright-container {
@@ -51,3 +92,4 @@ body {
     color: #777777;
     font-size: x-small;
 }
+
