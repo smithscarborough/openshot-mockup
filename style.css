@@ -28,15 +28,6 @@ body {
     background-color: #5193A6;
 }
 
-.left-chevron {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex; 
-    position: relative;
-    padding-top: 35%;
-}
-
 .right-trimmer {
     width: 15px;
     height: 70%;
@@ -59,20 +50,17 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+    display: block;
+    padding-top: 2%;
 }
 
 .export-video-button {
     background-color: #0099E6;
 }
 
-.export-video-container {
-    padding-top: 3.5%;
-    display: block;
-}
-
 .upload-video-container {
     padding-top: 1.5%;
-    display: block;
+    display: fixed;
 }
 
 .copyright-container {
